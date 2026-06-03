@@ -413,7 +413,7 @@ export default function LandingPage() {
             </div>
             <span className="nav-logo-text">linkreft<span>in</span></span>
           </div>
-          <span className="footer-copy">© 2024 linkreft. Built for Katomaran Hackathon.</span>
+          <span className="footer-copy">© 2024 linkreft. Built by Lathika Sri B. Built for Katomaran Hackathon.</span>
         </div>
         <span className="footer-right">
           This project is part of a hackathon run by{' '}
