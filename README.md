@@ -182,7 +182,18 @@ https://other.com,,Auto-generated code
 
 ---
 
-## 🤖 AI Planning Document
+## 🤖 AI-Assisted Development
+
+This project was developed using an AI-assisted workflow for planning, code generation, debugging, and documentation.
+
+AI tools were used to:
+- Plan the application architecture
+- Generate boilerplate code and reusable components
+- Assist with API design and database modeling
+- Improve UI implementation and responsiveness
+- Review and debug application logic
+
+All generated code was reviewed, integrated, tested, and understood before being included in the final application.
 
 ### Planning Approach
 
