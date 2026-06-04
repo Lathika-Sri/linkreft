@@ -6,7 +6,7 @@
 
 ## 📺 Demo Video
 
-> 🎬 **[Watch the demo on YouTube/Loom →](#)** *(Add your video link here before submission)*
+> 🎬 **[Watch the Demo Video](https://www.loom.com/share/f4e03fee67974e339233fe3a07df4cc9)**
 
 ---
 
@@ -38,43 +38,9 @@
 
 ---
 
-## 🏗️ Architecture
+## 🏗️ Architecture Diagram
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│                        CLIENT (React)                        │
-│  Landing → Login/Signup → Dashboard → Analytics Detail       │
-│  Components: UrlCard, CreateUrlModal, QRModal                │
-│  State: AuthContext (JWT), React Router v6                    │
-└──────────────────────┬──────────────────────────────────────┘
-                       │ HTTP REST (axios)
-                       ▼
-┌─────────────────────────────────────────────────────────────┐
-│                    BACKEND (Express.js)                       │
-│                                                               │
-│  /api/auth          → Signup, Login, Get Me                  │
-│  /api/urls          → CRUD + Bulk CSV                        │
-│  /api/analytics     → Dashboard stats, URL analytics         │
-│  /:shortCode        → Redirect + Record visit                │
-│                                                               │
-│  Middleware: helmet, cors, rate-limit, JWT auth              │
-│  Validation: express-validator                               │
-│  Analytics: ua-parser-js + geoip-lite                        │
-└──────────────────────┬──────────────────────────────────────┘
-                       │ mongoose
-                       ▼
-┌─────────────────────────────────────────────────────────────┐
-│                      MongoDB (Atlas / Local)                  │
-│                                                               │
-│  users: { name, email, password(hashed), avatar }            │
-│  urls:  { originalUrl, shortCode, customAlias, user,         │
-│           clicks, visits[], isActive, expiresAt, tags }      │
-│                                                               │
-│  visits: { timestamp, ip, country, city, device,            │
-│             browser, os, referrer, userAgent }               │
-└─────────────────────────────────────────────────────────────┘
-```
-
+![Architecture](screenshots/architecture.png)
 ---
 
 ## 🚀 Quick Start
@@ -87,7 +53,7 @@
 ### 1. Clone & Install
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/linkreft-url-shortener.git
+git clone https://github.com/Lathika-Sri/linkreft-url-shortener.git
 cd linkreft-url-shortener
 
 # Install backend
@@ -277,7 +243,30 @@ This project was built using a structured AI-assisted workflow:
 
 ## 📸 Screenshots
 
-*[Add your screenshots here]*
+
+### Landing Page
+![Landing Page](screenshots/i1.png)
+
+### Login Page
+![Login Page](screenshots/i2.png)
+
+### Dashboard
+![Dashboard](screenshots/i3.png)
+
+### URL Analytics
+![Analytics](screenshots/i4.png)
+
+### Bulk CSV Upload
+![Bulk Upload](screenshots/i5.png)
+
+### QR Code Feature
+![QR Code](screenshots/i6.png)
+
+### URL Management
+![URL Management](screenshots/i7.png)
+
+### Additional Feature
+![Additional Feature](screenshots/i8.png)
 
 ---
 
