@@ -244,29 +244,29 @@ This project was built using a structured AI-assisted workflow:
 ## 📸 Screenshots
 
 
-### Landing Page
-![Landing Page](screenshots/i1.png)
-
 ### Login Page
-![Login Page](screenshots/i2.png)
-
-### Dashboard
-![Dashboard](screenshots/i3.png)
-
-### URL Analytics
-![Analytics](screenshots/i4.png)
-
-### Bulk CSV Upload
-![Bulk Upload](screenshots/i5.png)
-
-### QR Code Feature
-![QR Code](screenshots/i6.png)
+![Login Page](screenshots/i1.png)
 
 ### URL Management
-![URL Management](screenshots/i7.png)
+![URL Management](screenshots/i2.png)
 
-### Additional Feature
-![Additional Feature](screenshots/i8.png)
+### Custom Alias
+![Custom Alias](screenshots/i3.png)
+
+### QR Code
+![QR Code](screenshots/i4.png)
+
+### Analytics
+![Analytics](screenshots/i5.png)
+
+### Bulk CSV
+![Bulk CSV](screenshots/i6.png)
+
+### Light Theme
+![Light Theme](screenshots/i7.png)
+
+### Dark Theme
+![Dark Theme](screenshots/i8.png)
 
 ---
 
